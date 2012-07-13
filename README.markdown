@@ -23,10 +23,8 @@ own project (the `HHDistanceFormatter` group in the Xcode project).
 Then, you use it like this:
 
 ``` Objective-C
-
 NSNumber *distance = someObject.distanceToObject;
 NSString *distanceStr = [HHDistanceFormatter formatKilometers:distance];
-
 ```
 
 ## Downloading the code
@@ -54,4 +52,6 @@ I do not have the time to offer support, but if you submit an issue in the
 can answer).
 
 If you find a bug, please provide either a failing test or steps to reproduce.
-If you also provide a patch to fix it, that would be even better
+If you also provide a patch to fix it, that would be even better.
+
+[github-issues]: https://github.com/henrikhodne/HHDistanceFormatter/issues
