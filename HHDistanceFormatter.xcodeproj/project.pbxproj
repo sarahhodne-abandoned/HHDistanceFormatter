@@ -6,14 +6,121 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2E2D20F515B08D780035F823 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2D20F415B08D780035F823 /* SenTestingKit.framework */; };
+		2E2D20F715B08D780035F823 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2D20F615B08D780035F823 /* Cocoa.framework */; };
+		2E2D210915B08DA60035F823 /* HHDistanceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */; };
+		2E2D210A15B08DA60035F823 /* HHDistanceFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D20EA15B08CF80035F823 /* HHDistanceFormatterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2D20E915B08CF80035F823 /* HHDistanceFormatterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDistanceFormatterTests.h; sourceTree = SOURCE_ROOT; };
+		2E2D20EA15B08CF80035F823 /* HHDistanceFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDistanceFormatterTests.m; sourceTree = SOURCE_ROOT; };
+		2E2D20F115B08D780035F823 /* HHDistanceFormatterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHDistanceFormatterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2D20F415B08D780035F823 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E2D20F615B08D780035F823 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2E2D20F915B08D780035F823 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2E2D20FA15B08D780035F823 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E2D20FB15B08D780035F823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E2D20FE15B08D780035F823 /* HHDistanceFormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HHDistanceFormatterTests-Info.plist"; sourceTree = "<group>"; };
+		2E2D210515B08D780035F823 /* HHDistanceFormatterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHDistanceFormatterTests-Prefix.pch"; sourceTree = "<group>"; };
+		2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDistanceFormatter.h; sourceTree = "<group>"; };
+		2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDistanceFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2D20ED15B08D780035F823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2D20F515B08D780035F823 /* SenTestingKit.framework in Frameworks */,
+				2E2D20F715B08D780035F823 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		2E2D20F215B08D780035F823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D20F115B08D780035F823 /* HHDistanceFormatterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2D20F315B08D780035F823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D20F415B08D780035F823 /* SenTestingKit.framework */,
+				2E2D20F615B08D780035F823 /* Cocoa.framework */,
+				2E2D20F815B08D780035F823 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E2D20F815B08D780035F823 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D20F915B08D780035F823 /* AppKit.framework */,
+				2E2D20FA15B08D780035F823 /* CoreData.framework */,
+				2E2D20FB15B08D780035F823 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2E2D20FC15B08D780035F823 /* HHDistanceFormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D20E915B08CF80035F823 /* HHDistanceFormatterTests.h */,
+				2E2D20EA15B08CF80035F823 /* HHDistanceFormatterTests.m */,
+				2E2D20FD15B08D780035F823 /* Supporting Files */,
+			);
+			path = HHDistanceFormatterTests;
+			sourceTree = "<group>";
+		};
+		2E2D20FD15B08D780035F823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D20FE15B08D780035F823 /* HHDistanceFormatterTests-Info.plist */,
+				2E2D210515B08D780035F823 /* HHDistanceFormatterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		2EAD722315B083DF00823C20 = {
 			isa = PBXGroup;
 			children = (
+				2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */,
+				2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */,
+				2E2D20FC15B08D780035F823 /* HHDistanceFormatterTests */,
+				2E2D20F315B08D780035F823 /* Frameworks */,
+				2E2D20F215B08D780035F823 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2D20F015B08D780035F823 /* HHDistanceFormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2D210615B08D780035F823 /* Build configuration list for PBXNativeTarget "HHDistanceFormatterTests" */;
+			buildPhases = (
+				2E2D20EC15B08D780035F823 /* Sources */,
+				2E2D20ED15B08D780035F823 /* Frameworks */,
+				2E2D20EE15B08D780035F823 /* Resources */,
+				2E2D20EF15B08D780035F823 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHDistanceFormatterTests;
+			productName = HHDistanceFormatterTests;
+			productReference = 2E2D20F115B08D780035F823 /* HHDistanceFormatterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2EAD722515B083DF00823C20 /* Project object */ = {
@@ -29,14 +136,117 @@
 				en,
 			);
 			mainGroup = 2EAD722315B083DF00823C20;
+			productRefGroup = 2E2D20F215B08D780035F823 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				2E2D20F015B08D780035F823 /* HHDistanceFormatterTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2E2D20EE15B08D780035F823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E2D20EF15B08D780035F823 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2D20EC15B08D780035F823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2D210915B08DA60035F823 /* HHDistanceFormatter.m in Sources */,
+				2E2D210A15B08DA60035F823 /* HHDistanceFormatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
+		2E2D210715B08D780035F823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HHDistanceFormatterTests/HHDistanceFormatterTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "HHDistanceFormatterTests/HHDistanceFormatterTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2E2D210815B08D780035F823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HHDistanceFormatterTests/HHDistanceFormatterTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "HHDistanceFormatterTests/HHDistanceFormatterTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		2EAD722A15B083DF00823C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -52,6 +262,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E2D210615B08D780035F823 /* Build configuration list for PBXNativeTarget "HHDistanceFormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2D210715B08D780035F823 /* Debug */,
+				2E2D210815B08D780035F823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2EAD722815B083DF00823C20 /* Build configuration list for PBXProject "HHDistanceFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
