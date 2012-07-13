@@ -26,6 +26,7 @@
 		2E2D210515B08D780035F823 /* HHDistanceFormatterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHDistanceFormatterTests-Prefix.pch"; sourceTree = "<group>"; };
 		2E2D210D15B0910E0035F823 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2E2D211115B0924E0035F823 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2E2D211315B0937D0035F823 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HHDistanceFormatter.h; path = HHDistanceFormatter/HHDistanceFormatter.h; sourceTree = "<group>"; };
 		2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HHDistanceFormatter.m; path = HHDistanceFormatter/HHDistanceFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +105,7 @@
 			children = (
 				2E2D210D15B0910E0035F823 /* .gitignore */,
 				2E2D211115B0924E0035F823 /* LICENSE */,
+				2E2D211315B0937D0035F823 /* README.markdown */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
