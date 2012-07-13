@@ -3,7 +3,7 @@
 //  HHDistanceFormatter
 //
 //  Created by Henrik Hodne on 7/13/12.
-//
+//  Copyright (c) 2012 Henrik Hodne
 //
 
 #import "HHDistanceFormatter.h"
