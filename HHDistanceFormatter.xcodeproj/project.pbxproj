@@ -14,8 +14,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E2D20E915B08CF80035F823 /* HHDistanceFormatterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDistanceFormatterTests.h; sourceTree = SOURCE_ROOT; };
-		2E2D20EA15B08CF80035F823 /* HHDistanceFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDistanceFormatterTests.m; sourceTree = SOURCE_ROOT; };
+		2E2D20E915B08CF80035F823 /* HHDistanceFormatterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HHDistanceFormatterTests.h; path = HHDistanceFormatterTests/HHDistanceFormatterTests.h; sourceTree = SOURCE_ROOT; };
+		2E2D20EA15B08CF80035F823 /* HHDistanceFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HHDistanceFormatterTests.m; path = HHDistanceFormatterTests/HHDistanceFormatterTests.m; sourceTree = SOURCE_ROOT; };
 		2E2D20F115B08D780035F823 /* HHDistanceFormatterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHDistanceFormatterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2D20F415B08D780035F823 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2E2D20F615B08D780035F823 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -24,8 +24,9 @@
 		2E2D20FB15B08D780035F823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E2D20FE15B08D780035F823 /* HHDistanceFormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HHDistanceFormatterTests-Info.plist"; sourceTree = "<group>"; };
 		2E2D210515B08D780035F823 /* HHDistanceFormatterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HHDistanceFormatterTests-Prefix.pch"; sourceTree = "<group>"; };
-		2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDistanceFormatter.h; sourceTree = "<group>"; };
-		2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDistanceFormatter.m; sourceTree = "<group>"; };
+		2E2D210D15B0910E0035F823 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HHDistanceFormatter.h; path = HHDistanceFormatter/HHDistanceFormatter.h; sourceTree = "<group>"; };
+		2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HHDistanceFormatter.m; path = HHDistanceFormatter/HHDistanceFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +89,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2EAD722315B083DF00823C20 = {
+		2E2D210B15B0904E0035F823 /* HHDistanceFormatter */ = {
 			isa = PBXGroup;
 			children = (
 				2EAD722C15B083F300823C20 /* HHDistanceFormatter.h */,
 				2EAD722D15B083F300823C20 /* HHDistanceFormatter.m */,
+			);
+			name = HHDistanceFormatter;
+			sourceTree = "<group>";
+		};
+		2E2D210C15B090590035F823 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D210D15B0910E0035F823 /* .gitignore */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2EAD722315B083DF00823C20 = {
+			isa = PBXGroup;
+			children = (
+				2E2D210B15B0904E0035F823 /* HHDistanceFormatter */,
 				2E2D20FC15B08D780035F823 /* HHDistanceFormatterTests */,
+				2E2D210C15B090590035F823 /* Resources */,
 				2E2D20F315B08D780035F823 /* Frameworks */,
 				2E2D20F215B08D780035F823 /* Products */,
 			);
